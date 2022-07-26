@@ -53,17 +53,19 @@ Możliwość użycia camel-a
     + bought
     + sold
 
-Udostępnia pliki poprzez server Nodejs
+Server udostępnia pliki poprzez server Nodejs
 
     http -> ftp -> fs 
+
+Backup plików na prywatne repo w git
+
+    fs -> git
 
 Server nodejs pokazujący pliki przez http
 + json
 + pdf
 + image
   update plików w bazie danych, w files
-
-
 
 
 
@@ -90,6 +92,16 @@ set [columnname] =
 when [columnname] like ... then...
 ELSE...
 END)
+
+
+
+
+## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/inframonit/docs/edit/CONTRIBUTION/TODO.md)
+
+
+1. Dane: Helm, Gitlab Enterprises downgrade to community
+2. Usługa: docker compose na device: NUC on ubuntu + kubernetes + camel
+3. Przygotowanie usług lokalnie -> przez projekt gitlab uruchomienie  
 
 
 

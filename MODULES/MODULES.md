@@ -38,14 +38,16 @@ Możliwość użycia camel-a
     + bought
     + sold
 
-Udostępnia pliki poprzez server Nodejs
+Server udostępnia pliki poprzez server Nodejs
 
     http -> ftp -> fs 
+
+Backup plików na prywatne repo w git
+
+    fs -> git
 
 Server nodejs pokazujący pliki przez http
 + json
 + pdf
 + image
   update plików w bazie danych, w files
-
-
