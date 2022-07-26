@@ -4,7 +4,7 @@
 + apidsl - implementacja, strumieniowanie zadań
 
 Możliwość użycia camel-a
-# dockercompose.yaml
+# docker-compose.yaml
 
 Layers:
 + user management: ldap,..
@@ -14,7 +14,7 @@ Layers:
 + Server: 80
 
 Serwery API/DB Tables:
-+ readock server
++ readock www server
 
 Processing:
 + ocr API
@@ -40,22 +40,4 @@ Server nodejs pokazujący pliki przez http
 + image
   update plików w bazie danych, w files
 
-Localhost based on sqlite
-get request
-
-send pdf
-send as base64
-send as image
-
-
-duplicate columns
-copy from Column one to another
-replace value in duplciated column
-
-update [table].[name]
-set [columnname] =
-(case when [columnname] like 'December 2017%'  then REPLACE([columnname], 'December 2017', '2018 December')
-when [columnname] like ... then...
-ELSE...
-END)
 
