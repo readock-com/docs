@@ -6,33 +6,41 @@
 Możliwość użycia camel-a
 # docker-compose.yaml
 
-Layers:
+## Layers:
 + user management: ldap,..
 + filesystem : sftp, webdav 21
 + DB: mariadb, sql, 3306
 + API: 8081,8082,8083
 + Server: 80
 
-Serwery API/DB Tables:
+### Serwery API/DB Tables:
 + readock www server
 
-Processing:
+### Processing:
 + ocr API
     + from pdf to json
 + files API
     + from pdf to img
 
-Sqlite:
-+ transactions API
+### Data based on sql DB:
+
+#### transactions API
     + aftermarket
     + premium
     + ovh
-+ payments API
+
+#### payments API
     + wise
     + paypal
-+ invoices API
+
+
+#### invoices API
     + bought
     + sold
+
+Udostępnia pliki poprzez server Nodejs
+
+    http -> ftp -> fs 
 
 Server nodejs pokazujący pliki przez http
 + json
